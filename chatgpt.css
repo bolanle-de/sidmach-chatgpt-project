@@ -1,0 +1,108 @@
+body{
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: white;
+}
+
+header{
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+#login-btn{
+color: white;
+background-color: black;
+border: none;
+font-size: 12px;
+font-weight: 700;
+height: 30px;
+width: 80px;
+border-radius: 20px;
+margin: 10px;
+cursor: pointer;
+}
+#login-btn:hover{
+opacity: 0.8;
+}
+
+#signup-btn{
+  border: solid 0.5px black;
+  color: black;
+  font-size: 12px;
+  font-weight: 700;
+  height: 30px;
+  width: 80px;
+  border-radius: 20px;
+  background-color: white;
+  cursor: pointer;
+}
+#signup-btn:hover{
+  opacity: 0.5;
+}
+    
+
+.input-section{
+  margin-top: 50px;
+  border-radius: 18px;
+  text-align: center;
+  
+}
+
+input[type="text"]{
+padding: 10px;
+width: 600px;
+height: 30px;
+margin-top: 30px;
+border: none;
+border-radius: 20px;
+background-color: rgba(248, 242, 242, 0.897);
+}
+
+#icn{
+  position: relative;
+  left: -2rem;
+}
+.btn-section{
+text-align: center;
+
+}
+
+.btn-section button{
+border: solid 0.3px rgb(66, 65, 65);
+border-radius: 20px;
+margin-top: 30px;
+color: grey;
+background-color: white;
+height: 35px;
+width: 150px;
+padding: 0 2px;
+}
+button:hover{
+  background-color: rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+#more{
+  width: 80px;
+
+}
+
+footer{
+  margin-top: 60px;
+  text-align: center;
+  padding: 10px 0;
+  
+}
+
+footer a{
+  color: black;
+  text-decoration: underline;
+}
+
+footer p{
+  font-size: 12px;
+  color: grey;
+
+}
